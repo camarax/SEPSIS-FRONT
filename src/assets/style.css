@@ -1,0 +1,15 @@
+#row-body{
+    border: 1px solid rgb(166, 164, 164);
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 3px 2px 2px 2px rgb(166, 164, 164);
+}
+
+#right-block{
+    padding-top: 7%;
+}
+
+#block-resultat{
+    border: 1px solid black;
+}
