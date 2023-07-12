@@ -8,7 +8,7 @@ from dash_iconify import DashIconify
 # import des composants
 from .stat import modal
 
-PLOTLY_LOGO = "assets/logo.png"
+PLOTLY_LOGO = "assets/logo2.jpg"
 
 search_bar = dbc.Row(
     [
@@ -33,8 +33,8 @@ navbar = dbc.Navbar(
             html.A(
                 # Use row and col to control vertical alignment of logo / brand
                 dbc.Row(
-                    [
-                        dbc.Col(dbc.NavbarBrand("MEDISCAN", className="ms-2")),
+                    [   
+                        dbc.Col(dbc.NavbarBrand("MEDISCAN", className="ms-1", style={"font-family": "Courier New, monospace", "font-size":"25px"})),
                     ],
                     align="center",
                     className="g-0",
@@ -58,10 +58,3 @@ navbar = dbc.Navbar(
 
 )
 
-# @callback(
-#     Output("input-healt", "value"),
-#     Input("btn-health", "n_clicks"),
-# )
-# def health(n_clicks):
-#     if "btn-health" == ctx.triggered_id:
-#         pass

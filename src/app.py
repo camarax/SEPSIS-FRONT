@@ -6,8 +6,7 @@ from components.Header import navbar
 from components.Body import body
 
 
-
-app = Dash(name='mydash',external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(name='sepsisApi',external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 app.layout = html.Div([
     navbar,
