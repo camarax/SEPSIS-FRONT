@@ -63,7 +63,7 @@ body =  dbc.Container([
                     dbc.Row([
                         dbc.Col([
                             dmc.Button(
-                                "PRÉDDIRE",
+                                "PRÉDIRE",
                                 variant="gradient",
                                 gradient={"from": "indigo", "to": "cyan"},
                                 fullWidth=True,
