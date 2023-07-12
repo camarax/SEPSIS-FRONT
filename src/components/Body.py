@@ -143,7 +143,7 @@ def predict(n_clicks,value_prg,value_pl,value_pr,value_sk,value_ts,value_m11,val
             # faire appel à l'api
             data_float = {cle: float(value) for cle, value in data.items()}
             headers = {'Content-Type': 'application/json',"Authorization":"lesecret"}
-            response = requests.post("http://127.0.0.1:5000/predict", json=data_float, headers=headers).json()
+            response = requests.post("http://ec2-52-47-131-189.eu-west-3.compute.amazonaws.com:5000/predict", json=data_float, headers=headers).json()
             
             return resultat(response)
 

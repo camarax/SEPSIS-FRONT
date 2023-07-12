@@ -6,7 +6,7 @@ def resultat(resultat):
         [
             html.H4(f"Test {resultat['Prédiction']} à {resultat['Probalité']} %", className="alert-heading"),
             html.P(
-                f"D'après des analyse, cet individu à un test positif avec une probalité de {resultat['Probalité']} %."
+                f"D'après des analyse, cet individu à un test {resultat['Prédiction']} avec une probalité de {resultat['Probalité']} %."
             ),
             html.Hr(),
             html.P(

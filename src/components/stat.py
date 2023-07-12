@@ -42,7 +42,7 @@ def toggle_modal(n1, n2, is_open):
         # faire apel à l'api health
         headers = {'Content-Type': 'application/json',"Authorization":"lesecret"}
         start_time = time.time()
-        response = requests.get("http://127.0.0.1:5000/health", headers=headers)
+        response = requests.get("http://ec2-52-47-131-189.eu-west-3.compute.amazonaws.com:5000/health", headers=headers)
         response_time = "{:.2f}".format(time.time() - start_time)
         status = "Okay" if response.status_code == 200 else "Bad"
         return not is_open, html.P(f"Etat système : {status}, temps de réponse : {response_time} sc")
