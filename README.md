@@ -13,7 +13,7 @@ Pour exécuter l'application frontend, suivez les étapes suivantes :
 3. Installez les dépendances requises en exécutant la commande suivante :
 
 ```bash
-pip install dash dash-bootstrap-components
+pip install -r requirements.txt
 ```
 
 4. Exécutez le fichier app.py avec la commande suivante :
@@ -44,4 +44,4 @@ Vous pouvez personnaliser l'application frontend en modifiant les composants et 
 
 ## Auteurs
 
-Ce projet a été développé par **Aboubacar CAMARA**, **Aaricia DOMINGUEZ** et **Adrien ALVAREZ** dans le cadre du projet annuel de la classe M1IABD de l'école ESGI. Si vous avez des questions, veuillez nous contacter à l'adresse mail **aa-dz@hotmail.com**.
+Ce projet a été développé par **Aboubacar CAMARA**, **Aaricia DOMINGUEZ** et **Adrien ALVAREZ** dans le cadre du projet annuel de la classe M1IABD de l'école ESGI. Si vous avez des questions, veuillez nous contacter à l'adresse mail **aa-dz@hotmail.com** ou **aboubacar.camara.abk@gmail.com**.
